@@ -1,3 +1,5 @@
+max = 100
+
 def sum(n)
   sum=0
   (1..10).each do |i|
@@ -6,4 +8,4 @@ def sum(n)
   sum
 end
 
-puts sum(10)
+puts sum(max)
