@@ -1,5 +1,7 @@
+max = 100
+
 sum=0
-(1..10).each do |i|
+(1..max).each do |i|
   sum += i
 end
 
