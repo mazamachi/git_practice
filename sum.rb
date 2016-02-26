@@ -1,8 +1,11 @@
 max = 100
 
-sum=0
-(1..max).each do |i|
-  sum += i
+def sum(n)
+  sum=0
+  (1..10).each do |i|
+    sum += i
+  end
+  sum
 end
 
-puts sum
+puts sum(max)
